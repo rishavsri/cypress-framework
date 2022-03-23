@@ -1,0 +1,20 @@
+{
+  "baseUrl": "http://www.webdriveruniversity.com",
+  "chromeWebSecurity": false,
+  "video":false,
+  "retries":{
+    "runMode" : 1,
+    "openMode" : 1
+  },
+  "env": {
+    "first_name": "Hit",
+    "webdriveruni_homepage": "http://www.webdriveruniversity.com"
+  },
+  "projectId": "kid1kv",
+  
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+      "configFile": "reporter-config.json"
+  }
+  
+}
