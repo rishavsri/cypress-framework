@@ -11,7 +11,7 @@ class Conatct_Us_PO{
         cy.get('textarea.feedback-input').type(comment)
         cy.get('[type="submit"]').click();
         cy.get($selector).contains(textToLocate,{timeout:20000})
-        cy.screenshot();
+        // cy.screenshot();
         // cy.screenshot("Made a contact us from submission")
         //Assertion on the given command
     }
